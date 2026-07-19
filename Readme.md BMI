@@ -1,0 +1,45 @@
+# Python-Task2-BMICalculator
+
+A graphical User Interface (GUI) based Body Mass Index (BMI) Calculator built using Python and Tkinter. This application allows users to easily calculate their BMI by entering their weight and height, providing instant feedback on their health category along with a clean visual analysis.
+
+## 🚀 Features
+
+*   **User-Friendly GUI:** Built with Tkinter for a clean, intuitive desktop interface.
+*   **Dual-Unit Support:** (Optional/Add based on your exact code, or standard metric) Accepts weight in kilograms (kg) and height in centimeters (cm) / meters (m).
+*   **Instant Classification:** Automatically categorizes the calculated BMI based on official WHO standards:
+    *   Underweight (< 18.5)
+    *   Normal weight (18.5 – 24.9)
+    *   Overweight (25.0 – 29.9)
+    *   Obesity (≥ 30.0)
+*   **Data Validation:** Basic error handling to prevent crashes from empty inputs or invalid characters.
+
+## 🛠️ Tools and Libraries
+
+*   **Language:** Python 3.x
+*   **GUI Framework:** `tkinter` (Built-in Python library)
+*   **Math Calculations:** Standard Python operational operators
+
+## 📋 Standard BMI Formula Used
+
+The application computes BMI using the standard metric formula:
+
+$$BMI = \frac{weight\ (kg)}{height^2\ (m^2)}$$
+
+## 💻 How to Run the Project
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/Abhinayaakula21/OIBSIP.git](https://github.com/Abhinayaakula21/OIBSIP.git)
+    cd OIBSIP/Python-Task2-BMICalculator
+    ```
+
+2.  **Execute the Script:**
+    Run the Python file directly from your terminal or command prompt:
+    ```bash
+    python bmi_calculator.py
+    ```
+    *(Note: Replace `bmi_calculator.py` with your exact script filename if it differs).*
+
+## 📈 Project Outcome
+
+Successfully designed a lightweight, responsive desktop utility that bridges basic Python programming with interactive UI design. The tool provides users with an instant, clear snapshot of their weight category, assisting them in monitoring their wellness goals effectively.
